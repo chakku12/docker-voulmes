@@ -1,0 +1,10 @@
+ docker ps
+ docker ps -a
+ docker inpect container id
+ docker images
+ docker rmi  -f imageid
+docker rmi -f $(docker images)
+docker rm -f container id
+docker rm -f $(docker ps) 
+docker rm -f $(docker ps -a) 
+docker volume create devops --driver local
