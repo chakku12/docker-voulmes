@@ -9,3 +9,6 @@ docker rm -f $(docker ps)
 docker rm -f $(docker ps -a) 
 docker volume create devops --driver local
 var /lib/docker/voulmes
+
+docker ps -a
+docker commit containerid my-modified image
